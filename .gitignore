@@ -1,0 +1,15 @@
+# Glob pattern can also be used here to ignore paths with certain characters.
+# For example, the below rule will match both build/ and Build/
+[bB]uild/
+*.desktop
+
+# Ignoring files with full path.
+# This matches files in the root directory and subdirectories too.
+# i.e. otherfile.ext will be ignored anywhere on the tree.
+.directory
+demo
+src/git.h
+CMakeFiles
+CMakeCache.txt
+Makefile
+cmake_install.cmake
